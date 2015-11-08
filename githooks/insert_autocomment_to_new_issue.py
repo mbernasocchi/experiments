@@ -1,3 +1,9 @@
+# this listens to a github webhook of the type issue. 
+# see https://developer.github.com/v3/activity/events/types/#issuesevent
+# if the issue is opened, then the scripts issues an add comment API call
+# see https://developer.github.com/v3/issues/comments/#create-a-comment
+
+
 import web
 import json
 import requests
